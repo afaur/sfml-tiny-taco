@@ -1,0 +1,64 @@
+[root]
+name = "sfml-tiny-taco"
+version = "0.1.0"
+dependencies = [
+ "sfml 0.11.1",
+]
+
+[[package]]
+name = "bitflags"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "csfml-audio-sys"
+version = "0.1.0"
+dependencies = [
+ "csfml-system-sys 0.1.0",
+]
+
+[[package]]
+name = "csfml-graphics-sys"
+version = "0.1.0"
+dependencies = [
+ "csfml-system-sys 0.1.0",
+ "csfml-window-sys 0.1.1",
+]
+
+[[package]]
+name = "csfml-network-sys"
+version = "0.1.0"
+dependencies = [
+ "csfml-system-sys 0.1.0",
+ "libc 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "csfml-system-sys"
+version = "0.1.0"
+
+[[package]]
+name = "csfml-window-sys"
+version = "0.1.1"
+dependencies = [
+ "csfml-system-sys 0.1.0",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "sfml"
+version = "0.11.1"
+dependencies = [
+ "bitflags 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "csfml-audio-sys 0.1.0",
+ "csfml-graphics-sys 0.1.0",
+ "csfml-network-sys 0.1.0",
+ "csfml-system-sys 0.1.0",
+ "csfml-window-sys 0.1.1",
+ "libc 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+

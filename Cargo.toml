@@ -1,0 +1,9 @@
+[package]
+name = "sfml-tiny-taco"
+version = "0.1.0"
+authors = ["Adam Faur <adam.faur@gmail.com>"]
+
+[dependencies]
+
+[dependencies.sfml]
+path = "deps/rust-sfml"
